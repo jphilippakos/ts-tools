@@ -1,0 +1,16 @@
+{
+  "name": "ts-tools",
+  "version": "1.0.0",
+  "description": "handy typesafe tools for common tasks",
+  "main": "index.ts",
+  "author": "Tzannetos Philippakos",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "jest": "^24.7.1",
+    "ts-jest": "^24.0.2"
+  }
+}
