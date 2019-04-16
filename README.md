@@ -1,4 +1,4 @@
-# ts-utils
+# ts-tools
 Handy utilities for typescript projects
 
 ### TsMapper:
