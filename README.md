@@ -41,22 +41,22 @@ To prevent overriding of default values (i.e keep green as favorite color):
       .cancelOverride()
       
 ### tsMerge
-   A type safe version of Javascript's Object.assign. Useful for making changes to an object while maintaining immutability.
-   This function takes one or more parameters. It will make a new instance of the first argument's parent class.
-   It will then perform an Object.assign using this new object as the target, and all arguments as sources.
-   All arguments following the first, must be partial matches of the target's type.
+A type safe version of Javascript's Object.assign. Useful for making changes to an object while maintaining immutability.
+This function takes one or more parameters. It will make a new instance of the first argument's parent class.
+It will then perform an Object.assign using this new object as the target, and all arguments as sources.
+All arguments following the first, must be partial matches of the target's type.
    
-       class TargetType {
-           get fullName() {
-               return first + ' ' + last;
-           }
-      
-           constructor(public first: string, public last: string) { }
-       }
+    class TargetType {
+        get fullName() {
+            return first + ' ' + last;
+        }
+   
+        constructor(public first: string, public last: string) { }
+    }
   
-       const original = new TargetType('John', 'Doe');
-       const altered = tsMerge(original, { first: 'Jane' });
+    const original = new TargetType('John', 'Doe');
+    const altered = tsMerge(original, { first: 'Jane' });
    
    
 ##### Any ideas?
-    If you have a functionality you would like to see added to this library, please feel free to open an issue.
+If you have a functionality you would like to see added to this library, please feel free to open an issue.
