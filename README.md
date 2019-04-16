@@ -58,3 +58,5 @@ To prevent overriding of default values (i.e keep green as favorite color):
        const altered = tsMerge(original, { first: 'Jane' });
    
    
+##### Any ideas?
+    If you have a functionality you would like to see added to this library, please feel free to open an issue.
