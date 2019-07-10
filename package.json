@@ -1,10 +1,17 @@
 {
-  "name": "ts-tools",
-  "version": "1.0.0",
+  "name": "@jphilippakos/ts-tools",
+  "version": "1.0.2",
   "description": "handy typesafe tools for common tasks",
-  "main": "index.ts",
-  "author": "Tzannetos Philippakos",
+  "author": "Tzannetos Philippakos <webdev@jphilippakos.com>",
   "license": "MIT",
+  "homepage": "https://github.com/jphilippakos/ts-tools",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "typescript",
+    "mapper",
+    "immutable" 
+  ],
   "dependencies": {
     "typescript": "^3.0.0"
   },
@@ -12,5 +19,10 @@
     "@types/jest": "^24.0.11",
     "jest": "^24.7.1",
     "ts-jest": "^24.0.2"
-  }
+  },
+  "files": [
+    "src/",
+    "index.js",
+    "README.md"
+  ]
 }
