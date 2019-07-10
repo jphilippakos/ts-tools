@@ -4,7 +4,7 @@
         "lib": ["es2015", "es2017", "dom"],
         "declaration": true,
         "outDir": "dist",
-        "rootDir": "src"
+        "rootDir": "./"
     },
-    "include": ["./src/*.ts"]
+    "include": ["./src/*.ts", "index.ts"]
 }
